@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto social</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&" />
+
+   
+
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/mobfirst.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
@@ -20,13 +25,26 @@
                 <br><br>
                 
                 <form action="#" method="post">
-                    <label for="iemail">Email:</label>
-                    <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="Email@xxxx.com">
                     
-                    <label for="isenha">Senha:</label>
-                    <input type="password" name="senha" id="iseinha" required minlength="8" placeholder="8 dígitos" size="5">
-                    <br>
-                    <input type="submit" name="enviar" id="ienviar" value="Enviar" >
+                    <div class="campo">
+                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="nemail" id="iemail" required autocomplete="email" placeholder="Seu email">
+                    </div>
+                    
+                    <div class="campo">
+                        <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+
+                        <input type="password" name="senha" id="isenha" required minlength="8" placeholder="Sua senha" autocomplete="current-password">
+
+                        <label for="isenha">Senha:</label>
+                    </div>
+
+                    <div class="campo">
+                        <input type="submit" name="enviar" id="ienviar" value="Enviar">
+
+                        <a href="esqueci.html">Esqueci a senha</a>
+                    </div>
+                    
                 </form>
             </div>
         </section>
