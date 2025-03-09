@@ -72,6 +72,7 @@ section#ilogin > div#iform > h1{
 
 section#ilogin > div#iform > p{
     font-size: 0.8em;
+    margin-bottom: 20px;
 }
 
 form div.campo{
